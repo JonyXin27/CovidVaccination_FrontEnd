@@ -1,0 +1,45 @@
+/* 头部：查询搜索 */
+#search-options {
+    font-size: 14px;
+    background-color: rgba(255, 255, 255, 0.7);
+    border: 0;
+    outline: none;
+    box-shadow: 0 0 10px #fff;
+}
+
+.search-hd {
+    width: 480px;
+    margin: 20px auto;
+}
+
+.search-hd>input {
+    width: 170px;
+    height: 30px;
+    margin: 0 20px;
+    padding: 0 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #fff;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+.btn-search {
+    width: 50px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.7);
+
+}
+
+/* body：显示接种信息 */
+.msg-vaccine {
+    margin: 0 auto;
+    border-collapse: collapse;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+.msg-vaccine th,
+.msg-vaccine td {
+    padding: 4px 10px;
+    border: 1px solid #fff;
+    font-size: 18px;
+}

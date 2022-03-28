@@ -1,0 +1,78 @@
+body {
+    background: url(../images/bg-user.jpg) no-repeat fixed;
+    background-size: cover;
+}
+
+.header {
+    background: rgba(255, 192, 203 , 0.8);
+    height: 40px;
+}
+.header-hd{
+    float: left;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 0 20px;
+    line-height: 40px;
+}
+.user {
+    float: right;
+}
+.user>ul>li {
+    float: left;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 40px;
+    margin: 0 15px;
+}
+.msg {
+    margin-top: 50px;
+}
+/* 接种信息 */
+.msg-covid {
+    margin: 0 auto;
+    border-collapse: collapse;
+    background-color: rgba(255 ,255, 255,0.7);
+}
+.msg-covid th,.msg-covid td{
+    padding: 4px 10px;
+    border: 1px solid #fff;
+    font-size: 18px;
+}
+
+/* 个人信息 */
+.msg-self {
+    margin: 0 auto;
+    width: 400px;
+    height: 320px;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    box-shadow: white 0 0 5px;
+    background-color: rgba(255 ,255, 255,0.7);
+}
+.self-hd {
+    font-size: 16px;
+    padding: 0 10px;
+    text-align: center;
+    border-bottom: 1px solid #fff;
+}
+.self-bd {
+    font-weight: 500;
+}
+.self-bd ul li{
+    margin-left: 20px;
+}
+.self-bd ul li .inp{
+    width: 170px;
+    height: 30px;
+    font-size: 15px;
+    margin-top: 10px;
+    background-color: transparent;
+}
+.btn-change {
+    display: inline-block;
+    width: 70px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: rgba(0 ,0 0 , 0.8);
+    margin: 10px;
+}

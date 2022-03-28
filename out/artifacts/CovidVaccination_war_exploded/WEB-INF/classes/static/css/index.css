@@ -1,0 +1,61 @@
+body {
+    background: url(../images/bg-login.jpg) no-repeat fixed;
+    background-size: cover;
+}
+.index {
+    position: fixed;
+    left: 10%;
+    width: 400px;
+    height: 280px;
+    background-color: rgba(238, 238, 238, 0.6);
+    box-shadow: 0px 0px 5px;
+    margin: 150px auto;
+    border-radius: 10px;
+}
+
+.index ul li {
+    margin: 0 10px;
+    padding: 10px;
+    /* background: rgba(255, 255, 255, 0.8); */
+} 
+
+.index ul li label {
+    display: inline-block;
+    width: 70px;
+    text-align: right;
+    font-size: 14px;
+}
+
+.index ul li .inp {
+    width: 170px;
+    height: 30px;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.btn-login{
+    width: 100px;
+    height: 40px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    transform: translateX(120px);
+}
+
+.index  .user-type li {
+    float: left;
+    width: 170px;
+    text-align: center;
+    font-size: 14px;
+    margin: 10px 0;
+    padding: 0;
+}
+
+.user-type li:nth-child(1) {
+    /* background: rgba(255, 255, 255, 0.8); */
+    border-right: 1px solid #000;
+    font-weight: 700;
+}
+.index ul li:last-child {
+    text-align: center;
+}

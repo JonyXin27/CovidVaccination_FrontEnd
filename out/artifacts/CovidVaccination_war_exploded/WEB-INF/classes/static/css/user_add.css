@@ -1,0 +1,12 @@
+.register {
+    position: static;
+    margin: 40px auto;
+}
+
+.register ul li h3 {
+    padding-top: 20px;
+}
+
+.btn-register {
+    transform: translateX(0);
+}

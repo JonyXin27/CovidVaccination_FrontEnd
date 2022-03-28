@@ -1,0 +1,37 @@
+/* 个人信息 */
+.msg-self {
+    margin: 50px auto;
+    width: 400px;
+    height: 320px;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    box-shadow: white 0 0 5px;
+    background-color: rgba(255 ,255, 255,0.7);
+}
+.self-hd {
+    font-size: 16px;
+    padding: 0 10px;
+    text-align: center;
+    border-bottom: 1px solid #fff;
+}
+.self-bd {
+    font-weight: 500;
+}
+.self-bd ul li{
+    margin-left: 20px;
+}
+.self-bd ul li .inp{
+    width: 170px;
+    height: 30px;
+    font-size: 15px;
+    margin-top: 10px;
+    background-color: transparent;
+}
+.btn-change {
+    display: inline-block;
+    width: 70px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: rgba(0 ,0 0 , 0.8);
+    margin: 10px;
+}

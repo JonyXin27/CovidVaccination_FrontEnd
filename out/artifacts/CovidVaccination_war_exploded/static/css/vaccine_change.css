@@ -1,0 +1,47 @@
+/* 搜索栏 */
+#user-change {
+    width: 400px;
+    height: 100px;
+    margin: 40px auto 0;
+    padding: 20px;
+    text-align: center;
+}
+
+#user-change>input {
+    width: 190px;
+    height: 40px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+
+#user-change>button {
+    width: 50px;
+    height: 30px;
+    border-radius: 10px;
+    margin-left: 10px;
+    border: 2px solid #ccc;
+}
+
+/* 疫苗接种信息 */
+.register {
+    position: static;
+    margin: 0 auto;
+    height: 440px;
+}
+
+.register>ul>li>h3 {
+    padding-top: 15px;
+}
+
+.btn-change {
+    display: inline-block;
+    width: 80px;
+    height: 40px;
+    border: 2px solid #fff;
+    border-radius: 10px;
+}
+
+.register ul>li>.inp {
+    width: 230px;
+}

@@ -1,0 +1,72 @@
+body {
+    background: url(../images/bg-admin.png) no-repeat fixed;
+    background-size: cover;
+}
+
+/* 头部 */
+.header {
+    height: 40px;
+    /* background-color: rgba(135, 206, 235, 0.8); */
+    background-color: rgba(138, 133, 255 ,0.8);
+    font-size: 16px;
+    line-height: 40px;
+
+}
+.hd-left>ul>li {
+    position: relative;
+    float: left;
+    width: 140px;
+    margin-left: 5px;
+    padding-left: 15px;
+    cursor: pointer;
+}
+.hd-right {
+    float: right;
+}
+.hd-right>ul>li {
+    float: left;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 40px;
+    margin: 0 15px;
+}
+
+#user-management,#vaccine-management{
+    position: relative;
+}
+
+#user-management::after,#vaccine-management::after {
+    content: "";
+    position: absolute;
+    width: 6px;
+    height: 6px;
+    border-bottom: 2px solid #000;
+    border-right: 2px solid #000;
+    transform: rotate(45deg);
+}
+#user-management::after{
+    top: 15px;
+    right: 42px;
+}
+#vaccine-management::after{
+    top: 15px;
+    right: 10px;
+}
+
+/* 下拉框 */
+.dropmenu {
+    position: absolute;
+    top: 40px;
+    width: 100%;
+}
+.dropmenu>li{
+    height: 30px;
+    line-height: 30px;
+    font-size: 14px;
+    background-color: rgba(138, 133, 255 ,0.9);
+
+}
+.dropmenu>li>a {
+    display: inline-block;
+    width: 100%;
+}
