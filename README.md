@@ -1,5 +1,13 @@
 ## 新冠疫苗接种统计平台
 
+前端：HTML、CSS、JQuery
+
+后端：SpringBoot框架+MySQL+MyBatis
+
+（后端链接：https://gitee.com/labyrinth04/covid_-vaccination/tree/master）
+
+服务器：Tomcat 9.0.39
+
 ### 系统角色
 
 #### 普通用户
@@ -47,12 +55,63 @@
 
 #### 登录/注册页面
 
-![image-20220328201606191](C:\Users\86133\AppData\Roaming\Typora\typora-user-images\image-20220328201606191.png)
+![image-20220426145006680](README.assets/image-20220426145006680.png)
 
-
-
-![image-20220328201813634](C:\Users\86133\AppData\Roaming\Typora\typora-user-images\image-20220328201813634.png)
+![image-20220426145013280](README.assets/image-20220426145013280.png)
 
 
 
 #### 用户页面
+
+##### 用户首页
+
+![image-20220426145028021](README.assets/image-20220426145028021.png)
+
+##### 用户个人信息修改
+
+![image-20220426145040678](README.assets/image-20220426145040678.png)
+
+
+
+#### 管理员页面
+
+##### 管理员主页
+
+![image-20220426145103625](README.assets/image-20220426145103625.png)
+
+##### 修改管理员信息
+
+![image-20220426145116249](README.assets/image-20220426145116249.png)
+
+##### 用户管理
+
+###### 增加用户
+
+![image-20220426145134855](README.assets/image-20220426145134855.png)
+
+###### 查找用户
+
+![image-20220426145150260](README.assets/image-20220426145150260.png)
+
+
+
+##### 疫苗接种管理
+
+###### 增加疫苗接种记录
+
+![image-20220426145204342](README.assets/image-20220426145204342.png)
+
+###### 删除疫苗接种记录
+
+![image-20220426145226451](README.assets/image-20220426145226451.png)
+
+###### 修改疫苗接种记录
+
+![image-20220426152358782](README.assets/image-20220426152358782.png)
+
+![image-20220426152413732](README.assets/image-20220426152413732.png)
+
+###### 查询疫苗接种记录
+
+![image-20220426152436087](README.assets/image-20220426152436087.png)
+

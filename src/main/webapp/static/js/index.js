@@ -44,6 +44,7 @@ function loginCheck() {
             contentType: "application/json",
             success: function (data) {
                 if (data.status === 200) {
+                    console.log(data);
                     if (data.data.isAdmin === 0 && !isAdmin) {
                         setLocalStorage("user" , JSON.stringify(data.data));
                         $("#info").text("提示:登陆成功，跳转中...");
